@@ -1,0 +1,44 @@
+<html ng-app="sampleApp">
+  <body ng-controller="SampleCtrl">
+    <ul>
+      <li ng-repeat="denuncia in denuncias">
+        <!-- edit a denuncia -->
+     
+        {{denuncia}}
+        <!-- delete a denuncia -->
+      
+      </li>
+    </ul>
+    <!-- push a new denuncia onto the array -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
+
+<!-- Firebase -->
+<script src="https://www.gstatic.com/firebasejs/3.6.6/firebase.js"></script>
+
+<!-- AngularFire -->
+<script src="https://cdn.firebase.com/libs/angularfire/2.3.0/angularfire.min.js"></script>
+<script type="text/javascript">
+
+  var config = {
+    apiKey: "AIzaSyDnsrFKJ00l3vye_AGwVt9womLPJGx51As",
+    authDomain: "chatsocket-2626b.firebaseapp.com",
+    databaseURL: "https://chatsocket-2626b.firebaseio.com",
+    projectId: "chatsocket-2626b",
+    storageBucket: "chatsocket-2626b.appspot.com",
+    messagingSenderId: "1075121073644"
+  };
+  firebase.initializeApp(config);
+
+
+  
+  var app = angular.module("sampleApp", ["firebase"]);
+  app.controller("SampleCtrl", function($scope, $firebaseArray) {
+    var ref = firebase.database().ref().child("denuncias");
+    $scope.denuncias = $firebaseArray(ref);
+
+  });
+
+</script>
+  </body>
+</html>

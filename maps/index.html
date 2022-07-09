@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html ng-app="demoapp">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/angular.min.js"></script>
+    <script src="js/leaflet.js"></script>
+    <script src="js/angular-leaflet-directive.js"></script>
+    <link rel="stylesheet" href="css/leaflet.css" />
+    <script>
+        var app = angular.module("demoapp", ["leaflet-directive"]);
+        app.controller('MarkersEventsAddController', [ '$scope', function($scope) {
+
+            angular.extend($scope, {
+                sp: {
+                    lat: -23.57,
+                    lng: -46.63,
+                    zoom: 16
+                },
+                events: {}
+            });
+
+            $scope.markers = new Array();
+
+            
+
+            /*$scope.$on("leafletDirectiveMap.click", function(event, args){
+                var leafEvent = args.leafletEvent;
+
+                $scope.markers.push({
+                    lat: leafEvent.latlng.lat,
+                    lng: leafEvent.latlng.lng,
+                    message: "My Added Marker"
+                });
+            });*/
+
+
+        function showLocation(position) {
+            var latitude = position.coords.latitude;
+            var longitude = position.coords.longitude;
+            alert("Latitude : " + latitude + " Longitude: " + longitude);
+            $scope.sp = {
+                    lat: latitude,
+                    lng: longitude,
+                    zoom: 16
+                };
+            $scope.markers.push({
+                    lat: latitude,
+                    lng: longitude,
+                    message: "Clica ai"
+                });
+         }
+
+         function errorHandler(err) {
+            if(err.code == 1) {
+               alert("Error: Access is denied!");
+            } else if( err.code == 2) {
+               alert("Error: Position is unavailable!");
+            }
+         }
+      
+         function getLocation() {
+
+            if(navigator.geolocation) {
+               
+               // timeout at 60000 milliseconds (60 seconds)
+               var options = {timeout:60000};
+               navigator.geolocation.getCurrentPosition(showLocation, errorHandler, options);
+            } else {
+               alert("Sorry, browser does not support geolocation!");
+            }
+         }
+
+         getLocation();
+
+        } ]);
+    </script>
+  </head>
+  <body ng-controller="MarkersEventsAddController">
+      <leaflet lf-center="sp" markers="markers" event-broadcast="events" height="480px" width="100%"></leaflet>
+      <h1>Arraste pro lugar correto</h1>
+     
+      </leaflet>
+  </body>
+</html>
