@@ -97,7 +97,7 @@
                                 <button class="rd-navbar-toggle" data-custom-toggle=".rd-navbar-nav-wrap"
                                     data-custom-toggle-disable-on-blur="true"><span></span></button>
                                     <a class="rd-navbar-brand brand" href="index.php">
-                                        <img src="assets/img/logos.png" alt="" width="125" height="34">
+                                        <img id="logo" src="assets/img/logos.png" alt="" width="125" height="34">
                                     </a>
                             </div>
                             <div class="rd-navbar-nav-wrap">
@@ -153,17 +153,20 @@
                 </nav>
             </div>
         </header>
-
+        
         <section>
-            <div class="hud">
+            <!-- <div class="hud">
                 <div class="button"></div>
                 <div class="main-button"></div>
                 <div class="button"></div>
-            </div>
-
+            </div> -->
+            
+            <img src="assets/img/huds.png" alt="" >
+            
             <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d58743435.06274274!2d-58.996521450000046!3d-13.90773037769992!3m2!1i1024!2i768!4f13.1!5e1!3m2!1spt-BR!2sbr!4v1657434942618!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
         </section>
-
+        
     <!-- ================================================================================================================================ -->
 
     <script type="text/javascript" async="" src="static/analytics.js"></script>
