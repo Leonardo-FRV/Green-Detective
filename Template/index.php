@@ -118,7 +118,7 @@
                                     </div> -->
                                     <ul class="rd-navbar-nav">
                                         <li class="active">
-                                            <a href="#">Home</a>
+                                            <a href="index.html">Home</a>
                                         </li>
 
                                         <li>
