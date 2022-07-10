@@ -96,7 +96,7 @@
                             <div class="rd-navbar-panel">
                                 <button class="rd-navbar-toggle" data-custom-toggle=".rd-navbar-nav-wrap"
                                     data-custom-toggle-disable-on-blur="true"><span></span></button>
-                                    <a class="rd-navbar-brand brand" href="#">
+                                    <a class="rd-navbar-brand brand" href="index.php">
                                         <img src="assets/img/logos.png" alt="" width="125" height="34">
                                     </a>
                             </div>
@@ -119,7 +119,7 @@
                                     </div> -->
                                     <ul class="rd-navbar-nav">
                                         <li class="active">
-                                            <a href="index.html">Home</a>
+                                            <a href="index.php">Home</a>
                                         </li>
 
                                         <li>
