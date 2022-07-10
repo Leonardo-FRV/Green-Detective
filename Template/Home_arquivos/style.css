@@ -342,6 +342,8 @@ img {
 	vertical-align: middle;
 	max-width: 100%;
 	height: auto;
+	position: fixed;
+	top: 0;
 }
 
 .img-responsive {
