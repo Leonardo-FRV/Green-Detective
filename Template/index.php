@@ -96,7 +96,7 @@
                                 <button class="rd-navbar-toggle" data-custom-toggle=".rd-navbar-nav-wrap"
                                     data-custom-toggle-disable-on-blur="true"><span></span></button>
                                     <a class="rd-navbar-brand brand" href="#">
-                                        <img src="assets/img/logos.png" alt="" width="125" height="34">
+                                        <img id="in" src="assets/img/logos.png" alt="" width="125" height="34">
                                     </a>
                             </div>
                             <div class="rd-navbar-nav-wrap">

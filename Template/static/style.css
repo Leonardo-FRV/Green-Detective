@@ -343,6 +343,10 @@ img {
 	max-width: 100%;
 	height: auto;
 	position: fixed;
+}
+
+#in {
+	
 	bottom: 0;
 }
 
