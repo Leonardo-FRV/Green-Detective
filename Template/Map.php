@@ -10,10 +10,10 @@
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 
     <link rel="icon" href="https://livedemo00.template-help.com/wt_61349_v3/images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="Home_arquivos/css.css">
-    <link rel="stylesheet" href="Home_arquivos/bootstrap.css">
-    <link rel="stylesheet" href="Home_arquivos/fonts.css">
-    <link rel="stylesheet" href="Home_arquivos/style.css">
+    <link rel="stylesheet" type="text/css" href="static/css.css">
+    <link rel="stylesheet" href="static/bootstrap.css">
+    <link rel="stylesheet" href="static/fonts.css">
+    <link rel="stylesheet" href="static/style.css">
     <link rel="stylesheet" href="css/Map.css">
 
     <!--[if lt IE 10]>
@@ -154,11 +154,11 @@
 
     <!-- ================================================================================================================================ -->
 
-    <script type="text/javascript" async="" src="Home_arquivos/analytics.js"></script>
-    <script async="" src="Home_arquivos/gtm.js"></script>
-    <script type="text/javascript" async="" src="Home_arquivos/ga.js"></script>
-    <script src="Home_arquivos/core.js"></script>
-    <script src="Home_arquivos/script.js"></script>
+    <script type="text/javascript" async="" src="static/analytics.js"></script>
+    <script async="" src="static/gtm.js"></script>
+    <script type="text/javascript" async="" src="static/ga.js"></script>
+    <script src="static/core.js"></script>
+    <script src="static/script.js"></script>
 
     <!--LIVEDEMO_00 -->
 
