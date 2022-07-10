@@ -1129,7 +1129,7 @@ address {
 
 .page .text-white {
 	color: #4171d2 !important;
-	/* text-shadow: 2px 2px 5px black; */
+	text-shadow: 2px 2px 5px #7098e9;
 }
 
 .page a.text-white:focus, .page a.text-white:hover {
