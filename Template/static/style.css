@@ -1121,8 +1121,8 @@ address {
 }
 
 .page .text-white {
-	color: #fff !important;
-	text-shadow: 2px 2px 7px black;
+	color: #4171d2 !important;
+	text-shadow: 2px 2px 5px black;
 }
 
 .page a.text-white:focus, .page a.text-white:hover {

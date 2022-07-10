@@ -122,15 +122,27 @@
                                         </li>
 
                                         <li>
-                                            <a href="#">About Us</a>
+                                            <a href="#">Ranking</a>
                                         </li>
-                                        
+                                    
                                         <li>
-                                            <a href="#">Services</a>
+                                            <a href="#">Mensagens</a>
                                         </li>
 
                                         <li>
-                                            <a href="#">Contacts</a>
+                                            <a href="#">Seus Pontos</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Pontos de Troca</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Quiz</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Minhas Denúncias</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Experiências</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -153,8 +165,8 @@
                                 <div class="row justify-content-sm-center">
                                     <div class="col-md-11 col-lg-10">
                                         <div class="text-white text-uppercase jumbotron-custom border-modern fadeInUp animated"
-                                            data-caption-animate="fadeInUp" data-caption-delay="0s">Contribua <span
-                                                class="text-thin">com as suas pistas</span><span
+                                            data-caption-animate="fadeInUp" data-caption-delay="0s">Contribua com suas pistas<span
+                                                class="text-thin"></span><span
                                                 class="border-modern-item-1"></span><span
                                                 class="border-modern-item-2"></span><span
                                                 class="border-modern-item-3"></span><span

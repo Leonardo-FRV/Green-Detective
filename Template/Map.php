@@ -118,20 +118,32 @@
                                             data-rd-navbar-toggle=".rd-navbar-search, .rd-navbar-search-wrap"></button>
                                     </div> -->
                                     <ul class="rd-navbar-nav">
-                                        <li class="active">
+                                    <li class="active">
                                             <a href="index.php">Home</a>
                                         </li>
 
                                         <li>
-                                            <a href="#">About Us</a>
+                                            <a href="#">Ranking</a>
                                         </li>
-                                        
+                                    
                                         <li>
-                                            <a href="#">Services</a>
+                                            <a href="#">Mensagens</a>
                                         </li>
 
                                         <li>
-                                            <a href="#">Contacts</a>
+                                            <a href="#">Seus Pontos</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Pontos de Troca</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Quiz</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Minhas Denúncias</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Experiências</a>
                                         </li>
                                     </ul>
                                 </div>
