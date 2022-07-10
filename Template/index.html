@@ -14,7 +14,6 @@
     <link rel="stylesheet" href="static/bootstrap.css">
     <link rel="stylesheet" href="static/fonts.css">
     <link rel="stylesheet" href="static/style.css">
-    <link rel="stylesheet" href="css/Map.css">
 
     <!--[if lt IE 10]>
     <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="https://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
@@ -96,7 +95,7 @@
                             <div class="rd-navbar-panel">
                                 <button class="rd-navbar-toggle" data-custom-toggle=".rd-navbar-nav-wrap"
                                     data-custom-toggle-disable-on-blur="true"><span></span></button>
-                                    <a class="rd-navbar-brand brand" href="index.php">
+                                    <a class="rd-navbar-brand brand" href="#">
                                         <img id="logo" src="assets/img/logos.png" alt="" width="125" height="34">
                                     </a>
                             </div>
@@ -118,7 +117,7 @@
                                             data-rd-navbar-toggle=".rd-navbar-search, .rd-navbar-search-wrap"></button>
                                     </div> -->
                                     <ul class="rd-navbar-nav">
-                                    <li class="active">
+                                        <li class="active">
                                             <a href="index.php">Home</a>
                                         </li>
 
@@ -153,20 +152,73 @@
                 </nav>
             </div>
         </header>
-        
+
         <section>
-            <!-- <div class="hud">
-                <div class="button"></div>
-                <div class="main-button"></div>
-                <div class="button"></div>
-            </div> -->
-            
-            <img src="assets/img/huds.png" alt="" >
-            
-            <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d58743435.06274274!2d-58.996521450000046!3d-13.90773037769992!3m2!1i1024!2i768!4f13.1!5e1!3m2!1spt-BR!2sbr!4v1657434942618!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            
+            <div class="swiper-container swiper-slider swiper-variant-1 bg-black swiper-container-horizontal"
+                data-loop="false" data-autoplay="5500" data-simulate-touch="true">
+                <div class="swiper-wrapper text-center"
+                    style="transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;">
+                    <div class="swiper-slide swiper-slide-active" data-slide-bg="assets/img/home-1.png"
+                        style="background-image: url(&quot;assets/img/home-1.png&quot;); background-size: cover; width: 1508px;">
+                        <div class="swiper-slide-caption">
+                            <div class="container">
+                                <div class="row justify-content-sm-center">
+                                    <div class="col-md-11 col-lg-10">
+                                        <div class="text-white text-uppercase jumbotron-custom border-modern fadeInUp animated"
+                                            data-caption-animate="fadeInUp" data-caption-delay="0s">Contribua com suas pistas<span
+                                                class="text-thin"></span><span
+                                                class="border-modern-item-1"></span><span
+                                                class="border-modern-item-2"></span><span
+                                                class="border-modern-item-3"></span><span
+                                                class="border-modern-item-4"></span></div>
+                                        <div data-caption-animate="fadeInUp" data-caption-delay="450s"
+                                            class="fadeInUp animated">
+                                            <p class="text-big-19 text-white d-none d-md-inline-block">Você e Charlie ficalizam o planeta</p>
+                                        </div>
+                                        <div class="button-block fadeInUp animated" data-caption-animate="fadeInUp"
+                                            data-caption-delay="550s"><a class="btn btn-primary"
+                                                href="Map.php">Envia suas pistas agora</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide-next" data-slide-bg="assets/img/home-2.png"
+                        style="background-image: url(&quot;assets/img/home-2.png&quot;); background-size: cover; width: 1508px;">
+                        <div class="swiper-slide-caption">
+                            <div class="container">
+                                <div class="row justify-content-sm-center">
+                                    <div class="col-md-11 col-lg-10 col-xl-12">
+                                        <div class="text-white text-uppercase jumbotron-custom border-modern not-animated"
+                                            data-caption-animate="fadeInUp" data-caption-delay="0s">Você e Charlie ficalizam o planeta<span class="border-modern-item-1"></span><span
+                                                class="border-modern-item-2"></span><span
+                                                class="border-modern-item-3"></span><span
+                                                class="border-modern-item-4"></span></div>
+                                        <div data-caption-animate="fadeInUp" data-caption-delay="450s"
+                                            class="not-animated">
+                                            <p class="text-big-19 text-white d-none d-md-inline-block">Optimize audit
+                                                costs using our years of experience</p>
+                                        </div>
+                                        <div class="button-block not-animated" data-caption-animate="fadeInUp"
+                                            data-caption-delay="550s"><a class="btn btn-primary"
+                                                href="Map.php">Envia suas pistas agora</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-scrollbar d-xl-none">
+                    <div class="swiper-scrollbar-drag"
+                        style="transform: translate3d(0px, 0px, 0px); width: 0px; transition-duration: 0ms;"></div>
+                </div>
+                <div class="swiper-nav-wrap d-none d-xl-block">
+                    <div class="swiper-button-prev swiper-button-disabled"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
         </section>
-        
+
     <!-- ================================================================================================================================ -->
 
     <script type="text/javascript" async="" src="static/analytics.js"></script>

@@ -345,13 +345,12 @@ img {
 	position: fixed;
 }
 
-#in {
-	
-	bottom: 0;
-}
-
 #logo {
 	top: 0;
+}
+
+#hud {
+	bottom: 0;
 }
 
 .img-responsive {
