@@ -10,10 +10,10 @@
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 
     <link rel="icon" href="https://livedemo00.template-help.com/wt_61349_v3/images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="Home_arquivos/css.css">
-    <link rel="stylesheet" href="Home_arquivos/bootstrap.css">
-    <link rel="stylesheet" href="Home_arquivos/fonts.css">
-    <link rel="stylesheet" href="Home_arquivos/style.css">
+    <link rel="stylesheet" type="text/css" href="static/css.css">
+    <link rel="stylesheet" href="static/bootstrap.css">
+    <link rel="stylesheet" href="static/fonts.css">
+    <link rel="stylesheet" href="static/style.css">
 
     <!--[if lt IE 10]>
     <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="https://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
@@ -213,11 +213,11 @@
 
     <!-- ================================================================================================================================ -->
 
-    <script type="text/javascript" async="" src="Home_arquivos/analytics.js"></script>
-    <script async="" src="Home_arquivos/gtm.js"></script>
-    <script type="text/javascript" async="" src="Home_arquivos/ga.js"></script>
-    <script src="Home_arquivos/core.js"></script>
-    <script src="Home_arquivos/script.js"></script>
+    <script type="text/javascript" async="" src="static/analytics.js"></script>
+    <script async="" src="static/gtm.js"></script>
+    <script type="text/javascript" async="" src="static/ga.js"></script>
+    <script src="static/core.js"></script>
+    <script src="static/script.js"></script>
 
     <!--LIVEDEMO_00 -->
 
