@@ -166,7 +166,7 @@
                                         </div>
                                         <div class="button-block fadeInUp animated" data-caption-animate="fadeInUp"
                                             data-caption-delay="550s"><a class="btn btn-primary"
-                                                href="Map.html">make
+                                                href="Map.php">make
                                                 An Appointment</a></div>
                                     </div>
                                 </div>
@@ -192,7 +192,7 @@
                                         </div>
                                         <div class="button-block not-animated" data-caption-animate="fadeInUp"
                                             data-caption-delay="550s"><a class="btn btn-primary"
-                                                href="Map.html">make
+                                                href="Map.php">make
                                                 An Appointment</a></div>
                                     </div>
                                 </div>
