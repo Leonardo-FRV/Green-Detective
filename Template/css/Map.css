@@ -1,3 +1,7 @@
+/* body {
+    background-image: url("/Template/assets/img/map.jpg");
+} */
+
 .hud {
     display: flex;
     justify-content: space-between;
