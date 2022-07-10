@@ -177,7 +177,7 @@
                                         </div>
                                         <div class="button-block fadeInUp animated" data-caption-animate="fadeInUp"
                                             data-caption-delay="550s"><a class="btn btn-primary"
-                                                href="Map.php">Envia suas pistas agora</a></div>
+                                                href="Map.php">Envie suas pistas agora</a></div>
                                     </div>
                                 </div>
                             </div>
@@ -201,7 +201,7 @@
                                         </div>
                                         <div class="button-block not-animated" data-caption-animate="fadeInUp"
                                             data-caption-delay="550s"><a class="btn btn-primary"
-                                                href="Map.php">Envia suas pistas agora</a></div>
+                                                href="Map.php">Envie suas pistas agora</a></div>
                                     </div>
                                 </div>
                             </div>
